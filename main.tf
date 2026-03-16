@@ -44,6 +44,6 @@ resource "aws_instance" "tc_instance" {
   }
 }
 
-resource "aws" "test_user99" {
+resource "aws_iam_user" "test_user99" {
   name = "Test-User99"
 }
